@@ -1,0 +1,36 @@
+DIFFERENCE BETWEEN DOCUMENT OBJECTS AND WINDOW OBJECTS
+
+DOCUMENT OBJECTS:
+
+1️⃣.Scope:
+    Represents the content of a web page.
+
+2️⃣. Hierarchy:
+    Entry Level of the ‘window’ object.
+
+3️⃣. Purpose:
+    Focused on accessing and manipulating the structure and content of the web page's HTML, such as elements.
+
+4️⃣. Use Cases:
+    Used for accessing and modifying HTML elements, handling user interactions, changing element styles, and updating content.
+
+
+5️⃣. DOM Relationship:
+    Part of the Document Object Model (DOM).
+
+WINDOW OBJECTS:
+
+1️⃣. Scope:
+    Represents the entire browser window or tab in the user's web browser.
+
+2️⃣. Hierarchy:
+    Top - Level global object in the browser's JavaScript environment.
+
+3️⃣. Purpose:
+    Manages various aspects of the browser environment and provides access to global properties, including the ‘document’ object.
+
+4️⃣. Use Cases:
+    Used for tasks like opening new browser windows or tabs, setting timeouts and intervals, accessing browser-specific features like location and history, managing the global JavaScript environment.
+
+5️⃣. DOM Relationship:
+    The top-level global object that encompasses the entire browser environment, including the ‘document’ object. It's not a direct part of the Document Object Model.
